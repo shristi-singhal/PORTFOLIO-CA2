@@ -1,0 +1,54 @@
+<!-- contact.html - Contact Form Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Shristi Singhal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Shristi Singhal</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> ix.c.shristisinghal@gmail.com[file:2]</p>
+                <p><strong>Location:</strong> Ghaziabad, Uttar Pradesh, India[file:2]</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/SHRISTI-Projects279">SHRISTI-Projects279</a>[file:2]</p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shristi-singhal">shristi-singhal</a>[file:2]</p>
+            </div>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Tell me about your project or collaboration opportunity..." rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
