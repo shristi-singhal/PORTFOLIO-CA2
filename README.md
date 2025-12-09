@@ -9,7 +9,11 @@ This project showcases my introduction, skills, projects, and a functional conta
 
 
 index.html – Home
+
 about.html – About Me
+
 skills.html – Skills & Projects
+
 contact.html – Contact Form
+
 
